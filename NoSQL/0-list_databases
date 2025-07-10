@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
 // x
 from pymongo import MongoClient
-client = MongoClient("mongodb://localhost:27017/")
-databases = client.list_database_name()
-print("Databases on the server:")
-for db in databases:
-    print(db.name)
+show dbs
