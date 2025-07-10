@@ -1,2 +1,2 @@
 // x
-db.school.delete_all("name":"Holberton school")
+db.school.deleteMany("name":"Holberton school")
