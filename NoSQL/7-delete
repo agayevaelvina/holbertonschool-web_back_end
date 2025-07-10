@@ -1,2 +1,3 @@
-// x
-db.school.deleteMany("name":"Holberton school")
+// Check if there are any documents with name "Holberton school"
+var count = db.school.count({ name: "Holberton school" });
+print("Documents found with name 'Holberton school': " + count);
