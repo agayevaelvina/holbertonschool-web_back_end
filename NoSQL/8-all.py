@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
-documents = list(mongo_collection.find())
-    return documents if documents else []
+def list_all(mongo_collection):
+    return mongo_collection.find())
