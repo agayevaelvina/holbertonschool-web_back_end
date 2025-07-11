@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
 def list_all(mongo_collection):
-    return mongo_collection.find())
+    '''Task 8'''
+    return list(mongo_collection.find())
